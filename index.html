@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav</title>
+
+    <!--css style sheet-->
+    <link rel="stylesheet" href="CSS/basic.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/introduction.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/skills.css">
+    <link rel="stylesheet" href="CSS/project.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <!--icon on tab bar-->
+    <link rel="icon" href="Images/favicon.ico">
+
+    <!-- ---------front link------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sacramento&family=Dancing+Script:wght@500&family=Tangerine&family=Nunito:wght@300&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+
+    <!---------------------------->
+
+</head>
+
+<body style="background-color: rgb(5, 41, 53);">
+
+    <!-- nav bar -->
+    <nav class="navbar">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#"> <img src="images/AA.jpg" alt="logo"></a>
+
+        </div>
+        <!-- nav menu -->
+        <div class="nav-menu">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#Skills">Skills</a> </li>
+            <li> <a href="#Project">Project</a> </li>
+            <li> <a href="#About">About</a> </li>
+            <li> <a href="#Contact">Contact</a> </li>
+        </div>
+    </nav>
+
+    <!-- name in large and one image -->
+    <div class="container-1">
+        <div class="Brief-intro">
+            <h1 class="name">I'm <span>Abhinav</span></h1>
+            <h2 class="about-me">a <span>frontend</span> Web Developer</h2>
+        </div>
+        <div class="img">
+            <img class="img-1" src="Images/me.jpg" alt="my profile image">
+        </div>
+
+    </div>
+    <!-- about me -->
+    <div class="container-2" id="About">
+
+        <h1>Welcome!</h1>
+        <div class="brief-about-me">
+            <div class="img">
+                <img class="img-2" src="Images/me.jpg" alt="abvhinav anand">
+            </div>
+            <div class="about-me-desc">
+                <h2> About Me</h2>
+                <p>I love to break boundaries and I always come with a 'can do' attitude with a strong sense of responsibility looking forward to working with a team that enjoys challenging projects and has an innovative outlook.</p>
+
+                <p>I am also open to tips on interview preparation, building a personal brand, launching a start-up, and he really really needs productivity tips.</p>
+                    
+                <p> I always open to new opportunities and would love to have a chat over coffee.</p>
+                    
+                <p> He is always open to new opportunities and would love to have a chat over coffee.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- skills -->
+    <div class="container-3" id="Skills">
+        <h1>Skills</h1>
+        <div class="skills">
+            <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img class="skill-img" src="Images/c prog.png" alt="C programming"></a>
+            <a href="https://en.wikipedia.org/wiki/C%2B%2B"><img class="skill-img" src="Images/cpp.png" alt="C++ Programming"></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img class="skill-img" src="Images/html.png" alt="HTML"></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="skill-img" src="Images/js.jpg" alt="Java Script"></a>
+            <a href="https://docs.python.org/3/"><img class="skill-img" src="Images/python 2.png" alt="Python"></a>
+            <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"><img class="skill-img" src="Images/bootstrap.png" alt="Bootstrap"></a>
+        </div>
+    </div>
+    </div>
+   
+    <!-- contact -->
+    <div class="container-5" id="Contact">
+
+        <h3>Let's talk about everything!</h3>
+        <details>
+            <summary>
+                <div class="contact-me">
+                    Contact Me
+                </div>
+            </summary>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+
+                                <p><img src="Images/undraw-contact.svg" alt="Image" class="img-fluid"></p>
+
+                            </div>
+                            <div class="col-md-6">
+
+                                <form class="mb-5" method="post" id="contactForm" name="contactForm"
+                                    action="mailto:kumar45abhinav02@gmail.com" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control" name="name" id="name"
+                                                placeholder="Your name" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control" name="subject" id="subject"
+                                                placeholder="Subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <textarea class="form-control" name="message" id="message" cols="30"
+                                                rows="7" placeholder="Write your message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <input type="submit" value="Send Message"
+                                                class="btn btn-primary rounded-0 py-2 px-4">
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="reset" value="Reset"
+                                                class="btn btn-primary rounded-0 py-2  px-4">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </details>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <!--some important social media links-->
+        <div class="footer-container">
+            <a href="https://www.linkedin.com/in/silence2kill" target="_blank"><img class="footer-logo" src="Images/linkedin.png" alt="LinkedIn" ></a>
+            <a href="https://github.com/Silence2kill" target="_blank"><img class="footer-logo" src="Images/github.png" alt="GitHub"></a>
+
+            <p>&copy; 2021 <span>&andand;</span> Abhinav </p>
+        </div>
+    </footer>
+</body>
+
+
+</html>

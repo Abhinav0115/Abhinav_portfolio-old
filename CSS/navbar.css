@@ -1,0 +1,125 @@
+.navbar {
+    background-color: rgb(161, 73, 10);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.3rem;
+    align-items: center;
+    width: auto;
+}
+
+.logo {
+    padding-left: 6rem;
+    display: flex;
+}
+
+.logo a img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.nav-menu {
+    padding-right: 4rem;
+    display: flex;
+    list-style: none;
+    height: 2.0rem;
+}
+
+.nav-menu li a {
+    color: rgb(63, 32, 3);
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+    font: 1.6rem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    box-shadow: gold 0.08rem 0 0.2rem;
+    border-radius: 8%;
+    transition: 0.3s;
+}
+
+
+.nav-menu li:hover {
+    transform: translateY(0.6rem) scale(1.2, 1.2);
+}
+
+@media (max-width: 850px) and (min-width: 600px) {
+
+    .nav-menu {
+        padding-right: 1.5rem;
+    }
+
+
+    .nav-menu li a {
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+
+    .logo {
+        padding-left: 2rem;
+    }
+
+    .logo a img:hover {
+        transform: none;
+    }
+}
+
+
+
+@media (max-width: 660px) {
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding-top: 1rem;
+
+
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0;
+        height: auto;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+
+    }
+
+    .logo a img {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .logo {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        margin-top: 0.5rem;
+    }
+
+    .nav-menu li a {
+        
+        font-size: 2rem;
+    }
+
+    .logo a img:hover {
+        transform: none;
+    }
+
+
+    .nav-menu li:hover {
+        transform: none;
+    }
+
+}

@@ -1,0 +1,62 @@
+.container-3 {
+
+    margin: 0;
+    padding-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.container-3 h1 {
+    font: normal 6rem 'papyrus';
+    color: rgb(160, 199, 17);
+    margin: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.skills {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.skill-img {
+    border-radius: 50%;
+    height: 9rem;
+    width: 9rem;
+    margin: 1.5rem;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.skill-img:hover {
+    animation: spin 300ms reverse;
+    transform: translateY(0rem) translateX(0rem) scale(1.05, 1.05);
+    box-shadow: 0 0 3px 3px #8b7704;
+
+}
+
+@media (max-width: 1100px) {
+
+    .about-skills {
+        width: 70%;
+    }
+}
+
+@media(max-width: 850px) {
+    .about-skills {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-skills {
+        width: 85%;
+    }
+}
+
+@media (max-width: 660px) {
+    .container-3 h1 {
+        font-size: 5rem;
+    }
+}
